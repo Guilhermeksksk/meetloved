@@ -1,0 +1,203 @@
+
+
+body{
+    font-family: "Oswald";
+    margin: 0;
+    padding: 0;
+    background-color: #15161B;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.logo h2{
+    color: white;
+}
+
+.logo span{
+    color: #F2507B;
+}
+
+
+.section-one{
+    display: flex;
+     justify-content: center;
+     margin-top: 100px;
+}
+
+.title-area h3 {
+    color: white;
+    font-weight: normal
+}
+
+.title-area h1 {
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -16px
+}
+
+.title-area a{
+    display: inline-block;
+    background-color: #F2507B;
+    margin-top: 30px;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.img-title img{
+    width: 460px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+
+/*INICIO SEGUNDA SECTION*/
+
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin: 100px 0 100px 0;
+}
+
+.section-two h2{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.card{
+    width: 200px;
+    height: 180px;
+    margin-left: 25px;
+    background-color: #2C2F37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover{
+    background-color: #F2507B;
+    transition: 0.3s all;
+}
+
+.card p{
+    color: white;
+}
+
+.card i{
+    font-size: 65px; 
+    color: white;
+}
+
+
+/*section - 3*/
+
+.section-three{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #F2507B;
+    height: 420px;
+}
+
+.section-three .title-area{
+    padding-top: 50px;
+    margin-right: 70px;
+}
+
+.section-three img{
+    border-radius: 0;
+    height: auto; 
+    width: 280px;
+    margin: 0;
+}
+
+.section-three a{
+    background-color: white;
+    color: black;
+}
+
+
+/*AREA FORMULARIO*/
+
+.form-area{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form-area h2{
+    color: white;
+    text-align: center;
+}
+
+.input-form form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.input-form input{
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+input::placeholder{
+    color: #000;
+    text-transform: uppercase;
+}
+
+.input-form [type="submit"]{
+    background-color: #F2507B;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*
+ FOOTER
+*/
+
+footer{
+    color: white;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 80px;
+
+}
+
+footer i{
+   font-size: 30px;
+   margin-right: 35px;
+  text-align: center;
+  color: white;
+   
+}
+
